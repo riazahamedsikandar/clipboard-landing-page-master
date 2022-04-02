@@ -1,5 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+:root{
+    
+--clr-Strong-green: hsl(171, 66%, 44%);
+--clr-Light-Blue: hsl(233, 100%, 69%);
+--clr-Dark-Gray: hsl(210, 10%, 33%);
+--clr-light-Gray: hsl(201, 11%, 66%);
+
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+header{
+    width: 100%;
+}
+header img{
+    width: rem;
+    position: relative;
+}
+.logo img{
+    width: 6rem;
+    display: block;
+    position: relative;
+    margin-top: -15rem;
+    margin-bottom: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+header h1{
+    text-align: center;
+    color: var(--clr-Dark-Gray);
+    margin-bottom: 1rem;
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+header p{
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 1.5rem;
+    color: var(--clr-light-Gray);
+    margin-bottom: 2rem;
+}
+
+header .download1{
+    width: 15rem;
+    height: 4rem;
+    margin-left: 25rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    border-color: var(--clr-Strong-green);
+    background-color: var(--clr-Strong-green);
+    border-color: hsl(171, 66%, 44%);;
+    box-shadow: 10px 10px 3px -9px hsl(171, 66%, 44%);
+
+
+}
+header .download2{
+    width: 15rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: var(--clr-Light-Blue);
+    border-color: var(--clr-Light-Blue);
 }
