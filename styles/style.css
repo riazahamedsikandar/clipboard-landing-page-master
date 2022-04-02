@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;700&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -59,9 +60,9 @@ header .download1{
     color: #fff;
     border-color: var(--clr-Strong-green);
     background-color: var(--clr-Strong-green);
-    border-color: hsl(171, 66%, 44%);;
-    box-shadow: 10px 10px 3px -9px hsl(171, 66%, 44%);
-
+    border-color: var(--clr-Strong-green);
+    box-shadow: 10px 1px 20px -3px hsl(171, 66%, 44%);
+    cursor: pointer;
 
 }
 header .download2{
@@ -71,4 +72,216 @@ header .download2{
     color: #fff;
     background-color: var(--clr-Light-Blue);
     border-color: var(--clr-Light-Blue);
+    box-shadow: 10px 1px 20px -3px hsl(233, 100%, 69%);
+    cursor: pointer;
+}
+.keep{
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    margin-bottom: 5rem;
+} 
+.keep h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--clr-Dark-Gray);
+}
+.keep p{
+    font-size: 1.5rem;
+    color: var(--clr-light-Gray);
+}
+.quick{
+    text-align: justify;
+}
+.quick img{
+    float: left;
+    width: 45%;
+    height: auto;
+    margin-right: 7rem;
+}
+.quick h2{
+    color: var(--clr-Dark-Gray);
+    padding-top: 2rem;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+}
+.quick p{
+    padding-right: 10rem;
+    font-size: 1.5rem;
+    color: var(--clr-light-Gray);
+}
+
+.access{
+    text-align: center;
+    margin-top: 8rem;
+}
+.access h2{
+    font-size: 2rem;
+    color: var(--clr-Dark-Gray);
+    margin-bottom: 1.5rem;
+
+}
+.access p{
+    font-size: 1.2rem;
+    margin-left: 20.1rem;
+    margin-right: 20.1rem;
+    margin-bottom: 5rem;
+    color: var(--clr-light-Gray);
+}
+
+.access-img img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.supercharge{
+    text-align: center;
+}
+.supercharge{
+    margin-top: 3rem;
+}
+.supercharge h2{
+    color: var(--clr-Dark-Gray);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+.supercharge p{
+    font-size: 1.4rem;
+    color: var(--clr-light-Gray);
+    margin-bottom: 5rem;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    margin-bottom: 3rem;
+}
+.logos h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--clr-Dark-Gray);
+}
+.logos img{
+    margin-bottom: 1rem;
+}
+.logos p{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    padding-right: rem;
+    color: var(--clr-light-Gray);
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    margin-bottom: 5rem;
+}
+.company img{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-top: 2rem;
+}
+.clipboard{
+    text-align: center;
+}
+.clipboard h2{
+    font-size: 2rem;
+    color: var(--clr-Dark-Gray);
+    margin-bottom: 1.5rem;
+}
+.clipboard p{
+    font-size: 1.2rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    color: var(--clr-light-Gray);
+    margin-bottom: 5rem;
+}
+
+
+.ios{
+    width: 15rem;
+    height: 4rem;
+    margin-left: 25rem;
+    margin-right: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    border-color: var(--clr-Strong-green);
+    background-color: var(--clr-Strong-green);
+    border-color: var(--clr-Strong-green);
+    box-shadow: 10px 1px 20px -3px hsl(171, 66%, 44%);
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-bottom: 5rem;
+
+}
+.mac{
+    width: 15rem;
+    font-size: 1.1rem;
+    margin-right: 20rem;
+    height: 4rem;
+    border-radius: 2rem;
+    color: #fff;
+    background-color: var(--clr-Light-Blue);
+    border-color: var(--clr-Light-Blue);
+    box-shadow: 10px 1px 20px -3px hsl(233, 100%, 69%);
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+.end{
+    background-color: hsl(201, 11%, 85%);
+}
+.end img{
+    width: 4rem;
+    margin-top: 2rem;
+    margin-left: 8rem;
+
+}
+.text{
+    display: grid;
+}
+.end ul{
+    list-style: none;
+    max-width: 40px;
+}
+ul li{
+    display: inline-block;
+    margin: 5px 20px;
+}
+.faq{
+    margin-left: 18rem;
+    margin-top: -4.5rem;
+    font-size: ;
+    margin-left: rem;
+}
+.privacy{
+    margin-top: -6rem;
+    margin-left: 32rem;
+}
+.install{
+    margin-left: 43rem;
+    margin-top: -7rem;
+}
+.social img{
+    width: 1.5rem;
+    margin-right: 8rem;
+    margin-top: -20rem;
+    margin-bottom: 5rem;
+
+}
+.social .facebook{
+    margin-left: 60rem;
+    padding-right: rem;
+
+}
+.social .twitter{
+    margin-left: -15rem;
+}
+.social .insta{
+    margin-left: -15rem;
 }
